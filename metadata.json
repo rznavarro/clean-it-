@@ -1,0 +1,6 @@
+{
+  "name": "Cleaning It – Limpieza a Domicilio",
+  "description": "Limpieza de alfombras, tapices, sillones y pisos duros a domicilio en Las Condes, Providencia, Vitacura y más. Sistema de espuma semi-seca y productos 100% biodegradables. Cotiza por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

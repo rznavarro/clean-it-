@@ -1,0 +1,2036 @@
+<!doctype html>
+<html lang="es-CL" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Limpieza de alfombras y tapices a domicilio en Santiago | Cleaning It</title>
+    <meta
+      name="description"
+      content="Limpieza de alfombras, tapices, sillones y pisos duros a domicilio en Las Condes, Providencia, Vitacura y más. Sistema de espuma semi-seca y productos 100% biodegradables. Cotiza por WhatsApp."
+    />
+    <link rel="canonical" href="https://cleaningit.cl/" />
+    <link rel="icon" type="image/png" href="https://cleaningit.cl/wp-content/uploads/2024/06/cropped-2.png" />
+    <link rel="apple-touch-icon" href="https://cleaningit.cl/wp-content/uploads/2024/06/cropped-2.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cleaningit.cl/" />
+    <meta property="og:title" content="Limpieza de alfombras y tapices a domicilio en Santiago | Cleaning It" />
+    <meta
+      property="og:description"
+      content="Limpieza de alfombras, tapices, sillones y pisos duros a domicilio en Las Condes, Providencia, Vitacura y más. Sistema de espuma semi-seca y productos 100% biodegradables. Cotiza por WhatsApp."
+    />
+    <meta property="og:image" content="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-3-1-1.jpg" />
+    <meta property="og:site_name" content="Cleaning It" />
+    <meta property="og:locale" content="es_CL" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://cleaningit.cl/" />
+    <meta name="twitter:title" content="Limpieza de alfombras y tapices a domicilio en Santiago | Cleaning It" />
+    <meta
+      name="twitter:description"
+      content="Limpieza de alfombras, tapices, sillones y pisos duros a domicilio en Las Condes, Providencia, Vitacura y más. Sistema de espuma semi-seca y productos 100% biodegradables. Cotiza por WhatsApp."
+    />
+    <meta name="twitter:image" content="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-3-1-1.jpg" />
+
+    <!-- Schema.org LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Cleaning It",
+        "image": "https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-3-1-1.jpg",
+        "telephone": "+56976061297",
+        "email": "contacto@cleaningit.cl",
+        "url": "https://cleaningit.cl",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "La Capitanía 80",
+          "addressLocality": "Las Condes",
+          "addressRegion": "Región Metropolitana",
+          "addressCountry": "CL"
+        },
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "areaServed": [
+          "Las Condes",
+          "Providencia",
+          "Vitacura",
+          "Lo Barnechea",
+          "Ñuñoa",
+          "La Reina",
+          "Santiago Centro"
+        ],
+        "priceRange": "$$"
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..500;1,9..144,400..500&family=JetBrains+Mono:wght@500&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              crema: '#EEEBE3',
+              superficie: '#F6F4EE',
+              oscuro: '#1B1F1C',
+              musgo: '#4A5A45',
+              'musgo-claro': '#6F8064',
+              arena: '#CFC3AE',
+            },
+            fontFamily: {
+              display: ['Fraunces', 'serif'],
+              sans: ['Manrope', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            boxShadow: {
+              'inner-light': 'inset 0 0 0 1px rgba(27, 31, 28, 0.08)',
+              'inner-dark': 'inset 0 0 0 1px rgba(255, 255, 255, 0.08)',
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Iconify Solar Icons -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+    <!-- GSAP 3 & ScrollTrigger CDN (fixed versions) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <style>
+      /* Text selection */
+      ::selection {
+        background-color: #4A5A45;
+        color: #EEEBE3;
+      }
+      ::-moz-selection {
+        background-color: #4A5A45;
+        color: #EEEBE3;
+      }
+
+      /* Base typography */
+      body {
+        font-family: 'Manrope', sans-serif;
+        background-color: #1B1F1C;
+        color: #1B1F1C;
+        overflow-x: hidden;
+      }
+
+      /* Photo warm treatment */
+      .photo-warm {
+        filter: saturate(0.9) contrast(1.05);
+      }
+
+      /* Noise overlay */
+      .noise-overlay {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+      }
+
+      /* Animated foam background spots */
+      @keyframes floatFoam1 {
+        0%, 100% {
+          transform: translate(0px, 0px) scale(1);
+        }
+        50% {
+          transform: translate(60px, 40px) scale(1.12);
+        }
+      }
+      @keyframes floatFoam2 {
+        0%, 100% {
+          transform: translate(0px, 0px) scale(1.1);
+        }
+        50% {
+          transform: translate(-50px, -35px) scale(0.92);
+        }
+      }
+      @keyframes floatFoam3 {
+        0%, 100% {
+          transform: translate(0px, 0px) scale(0.95);
+        }
+        50% {
+          transform: translate(40px, -30px) scale(1.08);
+        }
+      }
+
+      .foam-blob-1 {
+        animation: floatFoam1 24s ease-in-out infinite;
+      }
+      .foam-blob-2 {
+        animation: floatFoam2 28s ease-in-out infinite;
+      }
+      .foam-blob-3 {
+        animation: floatFoam3 22s ease-in-out infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .foam-blob-1,
+        .foam-blob-2,
+        .foam-blob-3 {
+          animation: none !important;
+        }
+        .reveal-scale,
+        .breathe-image {
+          animation: none !important;
+          transform: none !important;
+        }
+      }
+
+      /* Breathing animation for featured image */
+      @keyframes gentleBreathe {
+        0%, 100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.03);
+        }
+      }
+      .breathe-image {
+        animation: gentleBreathe 15s ease-in-out infinite;
+      }
+
+      /* Tertiary link animated underline */
+      .link-underline-grow {
+        position: relative;
+        text-decoration: none;
+      }
+      .link-underline-grow::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -2px;
+        left: 0;
+        background-color: currentColor;
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .link-underline-grow:hover::after {
+        transform: scaleX(1);
+      }
+
+      /* Safe area insets for mobile fixed bar */
+      .safe-bottom {
+        padding-bottom: max(1rem, env(safe-area-inset-bottom));
+      }
+
+      /* Hide scrollbar for review carousel on mobile */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* GSAP animated classes (revealed smoothly) */
+      html.js-ready .anim-hero-item {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      html.js-ready .featured-hero-bg {
+        transform: scale(1.08);
+      }
+    </style>
+  </head>
+  <body class="bg-oscuro text-oscuro antialiased selection:bg-musgo selection:text-crema">
+    <!-- SVG Definitions for Matte Noise -->
+    <svg class="sr-only" aria-hidden="true">
+      <filter id="matte-noise-filter">
+        <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.035 0" />
+      </filter>
+    </svg>
+
+    <!-- 7.0 TOP NAVIGATION (Sticky & Hide on Scroll Down) -->
+    <header
+      id="main-nav"
+      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-5 sm:px-8 lg:px-12"
+      role="banner"
+    >
+      <div class="max-w-[1280px] mx-auto flex items-center justify-between gap-8">
+        <!-- Zone 1: Single text element wordmark + logo -->
+        <a
+          href="#"
+          class="flex items-center gap-3 group text-crema transition-colors duration-200"
+          id="nav-brand"
+          aria-label="Cleaning It - Inicio"
+        >
+          <img
+            src="https://cleaningit.cl/wp-content/uploads/2024/06/cropped-2.png"
+            alt="Logo Cleaning It"
+            width="38"
+            height="38"
+            class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            loading="eager"
+          />
+          <span class="font-display font-medium text-xl sm:text-2xl tracking-[-0.02em] whitespace-nowrap">
+            Cleaning It
+          </span>
+        </a>
+
+        <!-- Zone 2: Desktop Navigation Links -->
+        <nav
+          class="hidden lg:flex items-center gap-8 text-sm font-medium tracking-normal text-crema/85 transition-colors duration-200"
+          id="nav-links"
+          aria-label="Navegación principal"
+        >
+          <a href="#servicios" class="link-underline-grow hover:text-white transition-colors whitespace-nowrap">
+            Servicios
+          </a>
+          <a href="#metodo" class="link-underline-grow hover:text-white transition-colors whitespace-nowrap">
+            Método
+          </a>
+          <a href="#opiniones" class="link-underline-grow hover:text-white transition-colors whitespace-nowrap">
+            Opiniones
+          </a>
+          <a href="#cobertura" class="link-underline-grow hover:text-white transition-colors whitespace-nowrap">
+            Cobertura
+          </a>
+          <a href="#reservar" class="link-underline-grow hover:text-white transition-colors whitespace-nowrap">
+            Reservar
+          </a>
+        </nav>
+
+        <!-- Zone 3: Primary CTA + Mobile Hamburger -->
+        <div class="flex items-center gap-3">
+          <a
+            href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+            target="_blank"
+            rel="noopener"
+            data-cta="nav"
+            class="btn-magnetic hidden sm:inline-flex items-center gap-2.5 px-6 py-2.5 bg-musgo text-crema text-sm font-medium rounded-full shadow-md hover:bg-musgo-claro transition-all duration-200 whitespace-nowrap focus:outline-none focus-visible:ring-2 focus-visible:ring-musgo-claro"
+          >
+            <!-- WhatsApp SVG Icon -->
+            <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+              />
+            </svg>
+            <span>Cotizar</span>
+          </a>
+
+          <!-- Mobile Menu Toggle Button -->
+          <button
+            id="mobile-menu-open"
+            type="button"
+            class="lg:hidden p-2 text-crema hover:text-white rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-musgo"
+            aria-label="Abrir menú de navegación"
+            aria-expanded="false"
+          >
+            <iconify-icon icon="solar:hamburger-menu-linear" width="28" height="28"></iconify-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Full-screen Mobile Menu Overlay -->
+    <div
+      id="mobile-menu-drawer"
+      class="fixed inset-0 z-50 bg-oscuro/98 text-crema backdrop-blur-xl transition-all duration-300 opacity-0 pointer-events-none flex flex-col justify-between p-6 sm:p-10 noise-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Menú principal"
+    >
+      <div class="flex items-center justify-between border-b border-crema/10 pb-6">
+        <div class="flex items-center gap-3">
+          <img
+            src="https://cleaningit.cl/wp-content/uploads/2024/06/cropped-2.png"
+            alt="Logo Cleaning It"
+            width="36"
+            height="36"
+            class="h-9 w-auto object-contain"
+          />
+          <span class="font-display font-medium text-2xl tracking-[-0.02em]">Cleaning It</span>
+        </div>
+        <button
+          id="mobile-menu-close"
+          type="button"
+          class="p-2 text-crema/80 hover:text-crema rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-musgo"
+          aria-label="Cerrar menú"
+        >
+          <iconify-icon icon="solar:close-circle-linear" width="32" height="32"></iconify-icon>
+        </button>
+      </div>
+
+      <!-- Links in Fraunces -->
+      <nav class="flex flex-col gap-6 py-8" aria-label="Enlaces móviles">
+        <a
+          href="#servicios"
+          class="mobile-nav-link font-display text-3xl sm:text-4xl text-crema hover:text-arena transition-colors tracking-tight"
+        >
+          Servicios
+        </a>
+        <a
+          href="#metodo"
+          class="mobile-nav-link font-display text-3xl sm:text-4xl text-crema hover:text-arena transition-colors tracking-tight"
+        >
+          Método
+        </a>
+        <a
+          href="#opiniones"
+          class="mobile-nav-link font-display text-3xl sm:text-4xl text-crema hover:text-arena transition-colors tracking-tight"
+        >
+          Opiniones
+        </a>
+        <a
+          href="#cobertura"
+          class="mobile-nav-link font-display text-3xl sm:text-4xl text-crema hover:text-arena transition-colors tracking-tight"
+        >
+          Cobertura
+        </a>
+        <a
+          href="#reservar"
+          class="mobile-nav-link font-display text-3xl sm:text-4xl text-crema hover:text-arena transition-colors tracking-tight"
+        >
+          Reservar
+        </a>
+      </nav>
+
+      <!-- Bottom drawer info -->
+      <div class="pt-6 border-t border-crema/10 space-y-4">
+        <div class="flex items-center gap-2 text-xs font-mono text-crema/70 uppercase tracking-[0.12em]">
+          <iconify-icon icon="solar:clock-circle-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+          <span>Lun–Sáb · 9:00–18:00 hrs</span>
+        </div>
+        <a
+          href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+          target="_blank"
+          rel="noopener"
+          data-cta="nav-mobile"
+          class="w-full flex items-center justify-center gap-3 py-4 bg-musgo text-crema font-medium rounded-full hover:bg-musgo-claro transition-colors text-base"
+        >
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+            />
+          </svg>
+          <span>Cotizar por WhatsApp</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- 7.1 HERO SECTION -->
+      <section
+        id="hero"
+        class="relative min-h-[100svh] min-h-[640px] flex items-center bg-oscuro overflow-hidden text-crema pt-24 pb-16 lg:py-24"
+        aria-labelledby="hero-heading"
+      >
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+          <img
+            src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-3-1-1.jpg?w=1600"
+            alt="Limpieza profesional de alfombras a domicilio"
+            fetchpriority="high"
+            decoding="async"
+            class="featured-hero-bg w-full h-full object-cover object-center opacity-45 photo-warm transition-transform duration-1000 ease-out"
+          />
+          <!-- Dark gradient downwards & to the left -->
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-oscuro via-oscuro/80 to-transparent lg:bg-gradient-to-r lg:from-oscuro/95 lg:via-oscuro/75 lg:to-transparent"
+          ></div>
+          <div class="absolute inset-0 noise-overlay pointer-events-none opacity-40"></div>
+        </div>
+
+        <!-- CSS Animated Foam Spots -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden z-[1]">
+          <div
+            class="foam-blob-1 absolute -top-24 left-1/4 w-[360px] h-[360px] sm:w-[500px] sm:h-[500px] rounded-full bg-[#EEEBE3]/10 blur-[100px]"
+          ></div>
+          <div
+            class="foam-blob-2 absolute top-1/3 right-10 w-[300px] h-[300px] sm:w-[460px] sm:h-[460px] rounded-full bg-[#CFC3AE]/10 blur-[120px]"
+          ></div>
+          <div
+            class="foam-blob-3 absolute -bottom-20 left-10 w-[320px] h-[320px] sm:w-[480px] sm:h-[480px] rounded-full bg-[#4A5A45]/15 blur-[110px]"
+          ></div>
+        </div>
+
+        <!-- Hero Content Container -->
+        <div class="relative z-10 max-w-[1280px] mx-auto w-full px-5 sm:px-8 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <!-- Left Column: Primary Copy (7 cols on lg) -->
+            <div class="lg:col-span-7 flex flex-col items-start space-y-6 sm:space-y-8">
+              <!-- Eyebrow Mono -->
+              <div
+                class="anim-hero-item inline-flex items-center gap-2 text-xs sm:text-[13px] font-mono font-medium tracking-[0.12em] uppercase text-crema/75 bg-crema/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-crema/15"
+              >
+                <span>LIMPIEZA A DOMICILIO</span>
+                <span class="text-arena font-sans">·</span>
+                <span>SANTIAGO ORIENTE</span>
+              </div>
+
+              <!-- H1 (Fraunces) -->
+              <h1
+                id="hero-heading"
+                class="anim-hero-item font-display font-normal text-4xl sm:text-6xl md:text-7xl lg:text-[84px] xl:text-[96px] tracking-[-0.02em] leading-[0.96] text-crema"
+              >
+                Limpieza profunda, <span class="italic text-arena font-normal">de raíz.</span>
+                <span class="sr-only">Limpieza de alfombras y tapices a domicilio en Santiago</span>
+              </h1>
+
+              <!-- Bajada -->
+              <p
+                class="anim-hero-item text-crema/80 text-base sm:text-lg lg:text-xl font-normal leading-relaxed max-w-2xl"
+              >
+                Alfombras, tapices y pisos duros como nuevos, con nuestro sistema de espuma semi-seca y productos 100%
+                biodegradables. Vamos a tu casa en Las Condes, Providencia, Vitacura y más.
+              </p>
+
+              <!-- CTA Row -->
+              <div class="anim-hero-item flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+                <a
+                  href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="hero"
+                  class="btn-magnetic group inline-flex items-center justify-center gap-3 h-[52px] px-7 bg-musgo text-crema text-base font-medium rounded-full shadow-lg hover:bg-musgo-claro transition-all duration-200 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-musgo-claro"
+                >
+                  <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+                    />
+                  </svg>
+                  <span>Cotizar por WhatsApp</span>
+                  <span class="inline-block transition-transform duration-200 group-hover:translate-x-1">→</span>
+                </a>
+
+                <a
+                  href="#servicios"
+                  class="inline-flex items-center justify-center h-[52px] px-7 border border-crema/30 text-crema text-base font-medium rounded-full hover:bg-crema/10 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-crema"
+                >
+                  Ver servicios
+                </a>
+              </div>
+
+              <!-- 3 Mono Chips Row -->
+              <div class="anim-hero-item flex flex-wrap items-center gap-3 pt-2 text-xs font-mono text-crema/85">
+                <div class="inline-flex items-center gap-2 bg-crema/10 backdrop-blur-sm px-3.5 py-1.5 rounded-full border border-crema/10">
+                  <iconify-icon icon="solar:leaf-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>100% biodegradable</span>
+                </div>
+                <div class="inline-flex items-center gap-2 bg-crema/10 backdrop-blur-sm px-3.5 py-1.5 rounded-full border border-crema/10">
+                  <iconify-icon icon="solar:waterdrops-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>Hasta 80% menos agua</span>
+                </div>
+                <div class="inline-flex items-center gap-2 bg-crema/10 backdrop-blur-sm px-3.5 py-1.5 rounded-full border border-crema/10">
+                  <iconify-icon icon="solar:clock-circle-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>Lun–Sáb 9:00–18:00</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column (Desktop Detail: Floating Glass Quote Card) -->
+            <div class="hidden lg:flex lg:col-span-5 justify-end">
+              <div
+                class="anim-hero-item max-w-sm p-6 rounded-[28px] bg-crema/10 backdrop-blur-md border border-crema/15 shadow-2xl relative"
+              >
+                <iconify-icon icon="solar:quote-left-linear" width="28" height="28" class="text-arena/70 mb-3"></iconify-icon>
+                <p class="font-display italic text-lg text-crema/95 leading-snug mb-4">
+                  “Mis sillones quedaron como nuevos, no fue necesario re tapizarlos.”
+                </p>
+                <div class="flex items-center justify-between text-xs border-t border-crema/15 pt-3">
+                  <span class="font-medium text-crema font-sans">Fresia Irribarra</span>
+                  <span class="text-crema/60 font-mono text-[11px]">CLIENTE VERIFICADA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.2 SERVICIOS (#servicios) -->
+      <!-- Stacked layer signature: rounded top corners, overlapping hero -->
+      <section
+        id="servicios"
+        class="relative z-10 bg-crema text-oscuro rounded-t-[44px] lg:rounded-t-[80px] -mt-10 sm:-mt-14 lg:-mt-20 pt-20 sm:pt-28 pb-24 sm:pb-32 px-5 sm:px-8 lg:px-12 shadow-[0_-20px_50px_rgba(0,0,0,0.35)]"
+        aria-labelledby="servicios-heading"
+      >
+        <div class="max-w-[1280px] mx-auto">
+          <!-- Section Header -->
+          <div class="max-w-2xl mb-14 sm:mb-20">
+            <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-musgo mb-3">
+              SERVICIOS
+            </div>
+            <h2
+              id="servicios-heading"
+              class="font-display font-normal text-3xl sm:text-5xl lg:text-[56px] tracking-[-0.02em] leading-[1.05] text-oscuro mb-4"
+            >
+              Lo que limpiamos
+            </h2>
+            <p class="text-oscuro/70 text-base sm:text-lg leading-relaxed">
+              Todo a domicilio, con productos certificados que cuidan tu salud y la del medio ambiente.
+            </p>
+          </div>
+
+          <!-- Services Grid (6 cards in exact order) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <!-- 1. Tapices y sillones -->
+            <article
+              class="service-card group bg-superficie rounded-[32px] p-6 flex flex-col justify-between shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-light"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] overflow-hidden mb-6 bg-crema">
+                  <img
+                    src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-4-1-2.jpg?w=800"
+                    alt="Limpieza de sillones y tapices a domicilio"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 class="font-display font-medium text-2xl text-oscuro mb-3">
+                  Tapices y sillones
+                </h3>
+                <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed mb-6">
+                  Sillones, sillas, futones, poltronas y banquetas. Renovamos el color y le devolvemos la vida a tus tapices.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20tapices%20y%20sillones."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-tapices"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-musgo group-hover:text-musgo-claro transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+
+            <!-- 2. Alfombras decorativas -->
+            <article
+              class="service-card group bg-superficie rounded-[32px] p-6 flex flex-col justify-between shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-light"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] overflow-hidden mb-6 bg-crema">
+                  <img
+                    src="https://cleaningit.cl/wp-content/uploads/2020/06/kelim2.jpg?w=800"
+                    alt="Limpieza de alfombras decorativas shaggy, persas y kilim"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 class="font-display font-medium text-2xl text-oscuro mb-3">
+                  Alfombras decorativas
+                </h3>
+                <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed mb-6">
+                  Shaggy, persas, kilim, wool, bereberes, blancas, dhurries y turcas.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20alfombras%20decorativas."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-alfombras-decorativas"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-musgo group-hover:text-musgo-claro transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+
+            <!-- 3. Alfombras muro a muro -->
+            <article
+              class="service-card group bg-superficie rounded-[32px] p-6 flex flex-col justify-between shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-light"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] overflow-hidden mb-6 bg-crema">
+                  <img
+                    src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-1-4.jpg?w=800"
+                    alt="Limpieza de alfombras muro a muro en habitaciones y oficinas"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 class="font-display font-medium text-2xl text-oscuro mb-3">
+                  Alfombras muro a muro
+                </h3>
+                <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed mb-6">
+                  Limpieza profunda de alfombras instaladas, sin retirarlas.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20alfombras%20muro%20a%20muro."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-alfombras-muro-a-muro"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-musgo group-hover:text-musgo-claro transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+
+            <!-- 4. Pisos duros -->
+            <article
+              class="service-card group bg-superficie rounded-[32px] p-6 flex flex-col justify-between shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-light"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] overflow-hidden mb-6 bg-crema">
+                  <img
+                    src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-3-2.jpg?w=800"
+                    alt="Limpieza profesional de pisos duros"
+                    width="400"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <h3 class="font-display font-medium text-2xl text-oscuro mb-3">
+                  Pisos duros
+                </h3>
+                <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed mb-6">
+                  Limpieza profesional de pisos duros con productos biodegradables.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20pisos%20duros."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-pisos-duros"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-musgo group-hover:text-musgo-claro transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+
+            <!-- 5. Tapices de auto (Typographic Card in Musgo) -->
+            <article
+              class="service-card group bg-musgo text-crema rounded-[32px] p-6 flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-dark"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] mb-6 bg-musgo-claro/30 flex items-center justify-center border border-crema/10">
+                  <iconify-icon icon="solar:wheel-linear" width="64" height="64" class="text-arena/90"></iconify-icon>
+                </div>
+                <h3 class="font-display font-medium text-2xl text-crema mb-3">
+                  Tapices de auto
+                </h3>
+                <p class="text-crema/75 text-sm sm:text-base leading-relaxed mb-6">
+                  Limpieza de tapices de tu auto con el mismo sistema semi-seco.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20tapices%20de%20auto."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-auto"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-arena hover:text-white transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+
+            <!-- 6. Sanitización (Typographic Card in Oscuro) -->
+            <article
+              class="service-card group bg-oscuro text-crema rounded-[32px] p-6 flex flex-col justify-between shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 shadow-inner-dark"
+            >
+              <div>
+                <div class="aspect-[4/3] rounded-[24px] mb-6 bg-white/5 flex items-center justify-center border border-crema/10">
+                  <iconify-icon icon="solar:shield-check-linear" width="64" height="64" class="text-musgo-claro"></iconify-icon>
+                </div>
+                <h3 class="font-display font-medium text-2xl text-crema mb-3">
+                  Sanitización
+                </h3>
+                <p class="text-crema/75 text-sm sm:text-base leading-relaxed mb-6">
+                  Eliminamos un 99% de virus, bacterias, ácaros y olores.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Sanitizaci%C3%B3n."
+                target="_blank"
+                rel="noopener"
+                data-cta="servicio-sanitizacion"
+                class="inline-flex items-center gap-2 text-sm font-semibold text-musgo-claro hover:text-white transition-colors pt-2"
+              >
+                <span>Cotizar este servicio</span>
+                <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </a>
+            </article>
+          </div>
+
+          <!-- Bottom Line: Mix de servicios -->
+          <div class="mt-12 text-center">
+            <a
+              href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20un%20mix%20de%20servicios."
+              target="_blank"
+              rel="noopener"
+              data-cta="servicio-mix"
+              class="inline-flex items-center gap-2 text-base sm:text-lg font-medium text-oscuro/80 hover:text-musgo transition-colors link-underline-grow"
+            >
+              <span>¿Necesitas varios? Cotiza un mix de servicios</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.3 MÉTODO (#metodo) -->
+      <!-- Stacked layer signature: rounded top corners, dark background with matte noise -->
+      <section
+        id="metodo"
+        class="relative z-20 bg-oscuro text-crema rounded-t-[44px] lg:rounded-t-[80px] -mt-10 sm:-mt-14 lg:-mt-20 pt-20 sm:pt-28 pb-24 sm:pb-32 px-5 sm:px-8 lg:px-12 shadow-[0_-20px_50px_rgba(0,0,0,0.5)] overflow-hidden"
+        aria-labelledby="metodo-heading"
+      >
+        <div class="absolute inset-0 noise-overlay pointer-events-none opacity-40"></div>
+
+        <div class="relative z-10 max-w-[1280px] mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <!-- Left Column: Copy and Real Metrics (7 cols on lg) -->
+            <div class="lg:col-span-7 flex flex-col space-y-8">
+              <div>
+                <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-arena mb-3">
+                  SISTEMA SEMI-SECO
+                </div>
+                <h2
+                  id="metodo-heading"
+                  class="font-display font-normal text-3xl sm:text-5xl lg:text-[56px] tracking-[-0.02em] leading-[1.05] text-crema mb-6"
+                >
+                  Espuma que limpia de raíz, no agua que empapa.
+                </h2>
+                <p class="text-crema/75 text-base sm:text-lg leading-relaxed max-w-2xl">
+                  Trabajamos con un sistema suizo profesional de lavado semi-seco a base de espuma y productos de origen europeo,
+                  certificados con normas ISO 9001 e ISO 14001. Eliminamos manchas, virus, bacterias, ácaros y olores, y dejamos
+                  tu casa higienizada y con un aroma agradable.
+                </p>
+              </div>
+
+              <!-- Grid of 4 big real numbers in Fraunces -->
+              <div class="grid grid-cols-2 gap-6 sm:gap-8 pt-4 border-t border-crema/10">
+                <!-- Stat 1 -->
+                <div>
+                  <div class="font-display font-normal text-4xl sm:text-6xl text-arena tracking-[-0.02em] mb-1">
+                    <span class="stat-counter" data-target="80">0</span>%
+                  </div>
+                  <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-crema/60">
+                    MENOS AGUA
+                  </div>
+                </div>
+
+                <!-- Stat 2 -->
+                <div>
+                  <div class="font-display font-normal text-4xl sm:text-6xl text-arena tracking-[-0.02em] mb-1">
+                    <span class="stat-counter" data-target="99">0</span>%
+                  </div>
+                  <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-crema/60">
+                    VIRUS, BACTERIAS Y ÁCAROS
+                  </div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div>
+                  <div class="font-display font-normal text-4xl sm:text-6xl text-arena tracking-[-0.02em] mb-1">
+                    ISO
+                  </div>
+                  <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-crema/60">
+                    9001 · 14001
+                  </div>
+                </div>
+
+                <!-- Stat 4 -->
+                <div>
+                  <div class="font-display font-normal text-4xl sm:text-6xl text-arena tracking-[-0.02em] mb-1">
+                    <span class="stat-counter" data-target="100">0</span>%
+                  </div>
+                  <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-crema/60">
+                    BIODEGRADABLE
+                  </div>
+                </div>
+              </div>
+
+              <!-- Final Note with Recycling Icon -->
+              <div class="flex items-start sm:items-center gap-3 pt-2 text-sm text-crema/75">
+                <iconify-icon
+                  icon="solar:recycling-linear"
+                  width="22"
+                  height="22"
+                  class="text-musgo-claro shrink-0 mt-0.5 sm:mt-0"
+                ></iconify-icon>
+                <span>Reciclamos todos nuestros envases. Personal capacitado y supervisado por los dueños.</span>
+              </div>
+            </div>
+
+            <!-- Right Column: Vertical 4:5 Image with Parallax (5 cols on lg) -->
+            <div class="lg:col-span-5 flex justify-center">
+              <div
+                class="metodo-img-wrap relative aspect-[4/5] w-full max-w-md rounded-[32px] overflow-hidden shadow-2xl border border-crema/10"
+              >
+                <img
+                  id="metodo-image"
+                  src="https://cleaningit.cl/wp-content/uploads/2020/06/limpieza-de-alfombras-c2bf.-1.jpg?w=800"
+                  alt="Proceso de limpieza profesional con máquina y espuma"
+                  width="500"
+                  height="625"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover photo-warm scale-[1.05]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.4 CÓMO FUNCIONA -->
+      <section
+        id="como-funciona"
+        class="relative z-10 bg-crema text-oscuro py-20 sm:py-28 px-5 sm:px-8 lg:px-12"
+        aria-labelledby="como-funciona-heading"
+      >
+        <div class="max-w-[1280px] mx-auto">
+          <!-- Header -->
+          <div class="max-w-xl mx-auto text-center mb-16 sm:mb-20">
+            <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-musgo mb-3">
+              PASO A PASO
+            </div>
+            <h2
+              id="como-funciona-heading"
+              class="font-display font-normal text-3xl sm:text-5xl tracking-[-0.02em] text-oscuro mb-4"
+            >
+              ¿Cómo coordinamos?
+            </h2>
+            <p class="text-oscuro/70 text-base sm:text-lg">
+              Tres pasos sencillos para renovar tus espacios sin complicaciones.
+            </p>
+          </div>
+
+          <!-- 3 Steps -->
+          <div class="relative grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-14">
+            <!-- Connecting line for desktop -->
+            <div
+              class="hidden md:block absolute top-7 left-[15%] right-[15%] h-[1px] bg-oscuro/15 -z-0"
+              id="steps-progress-line"
+            ></div>
+
+            <!-- Step 1 -->
+            <div class="step-item relative flex flex-col items-center text-center z-10">
+              <div
+                class="w-14 h-14 rounded-full bg-superficie border border-oscuro/15 shadow-inner-light flex items-center justify-center font-mono text-sm font-semibold text-musgo mb-6"
+              >
+                01
+              </div>
+              <h3 class="font-display font-medium text-2xl text-oscuro mb-3">Escríbenos</h3>
+              <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed max-w-xs">
+                Cuéntanos qué necesitas limpiar y en qué comuna estás, por WhatsApp o por teléfono.
+              </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-item relative flex flex-col items-center text-center z-10">
+              <div
+                class="w-14 h-14 rounded-full bg-superficie border border-oscuro/15 shadow-inner-light flex items-center justify-center font-mono text-sm font-semibold text-musgo mb-6"
+              >
+                02
+              </div>
+              <h3 class="font-display font-medium text-2xl text-oscuro mb-3">Agendamos</h3>
+              <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed max-w-xs">
+                Coordinamos el día y la hora que te acomoden, de lunes a sábado entre 9:00 y 18:00.
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-item relative flex flex-col items-center text-center z-10">
+              <div
+                class="w-14 h-14 rounded-full bg-superficie border border-oscuro/15 shadow-inner-light flex items-center justify-center font-mono text-sm font-semibold text-musgo mb-6"
+              >
+                03
+              </div>
+              <h3 class="font-display font-medium text-2xl text-oscuro mb-3">Vamos a tu casa</h3>
+              <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed max-w-xs">
+                Llegamos con nuestro equipo y productos biodegradables. Tú solo disfruta el resultado.
+              </p>
+            </div>
+          </div>
+
+          <!-- CTA button -->
+          <div class="flex justify-center">
+            <a
+              href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+              target="_blank"
+              rel="noopener"
+              data-cta="como-funciona"
+              class="btn-magnetic inline-flex items-center gap-3 h-[52px] px-8 bg-musgo text-crema text-base font-medium rounded-full shadow-md hover:bg-musgo-claro transition-all duration-200"
+            >
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+                />
+              </svg>
+              <span>Cotizar por WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.5 SERVICIO DESTACADO: TAPICES -->
+      <!-- High-fidelity featured card adapted from the reference style -->
+      <section class="relative z-10 bg-crema text-oscuro pb-20 sm:pb-28 px-5 sm:px-8 lg:px-12" aria-label="Servicio destacado de tapices">
+        <div class="max-w-[1280px] mx-auto">
+          <div
+            class="featured-card bg-oscuro text-crema rounded-[40px] shadow-2xl overflow-hidden p-6 sm:p-8 lg:p-12 relative shadow-inner-dark"
+          >
+            <div class="absolute inset-0 noise-overlay pointer-events-none opacity-30"></div>
+
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              <!-- Left Column: Asymmetrical Image with Social Proof (55% on lg -> 7 cols) -->
+              <div class="lg:col-span-7 relative">
+                <div
+                  id="featured-image-container"
+                  class="relative aspect-[4/3] sm:aspect-[16/11] w-full rounded-2xl rounded-tr-[96px] lg:rounded-tr-[160px] overflow-hidden bg-white/5"
+                >
+                  <img
+                    id="featured-tapices-img"
+                    src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-1-5.jpg?w=800"
+                    alt="Sillón de living impecable tras el tratamiento de espuma semi-seca"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm breathe-image"
+                  />
+                  <!-- Gradient overlay for text readability -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-oscuro/80 via-transparent to-transparent"></div>
+
+                  <!-- Overlapping Social Proof Avatars on bottom-left of image -->
+                  <div
+                    class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 flex items-center gap-3 bg-oscuro/85 backdrop-blur-md px-4 py-2.5 rounded-full border border-crema/15"
+                  >
+                    <div class="flex -space-x-2">
+                      <div
+                        class="w-8 h-8 rounded-full bg-arena text-oscuro font-mono text-xs font-semibold flex items-center justify-center ring-2 ring-oscuro"
+                      >
+                        FI
+                      </div>
+                      <div
+                        class="w-8 h-8 rounded-full bg-musgo-claro text-crema font-mono text-xs font-semibold flex items-center justify-center ring-2 ring-oscuro"
+                      >
+                        MB
+                      </div>
+                      <div
+                        class="w-8 h-8 rounded-full bg-crema text-oscuro font-mono text-xs font-semibold flex items-center justify-center ring-2 ring-oscuro"
+                      >
+                        FP
+                      </div>
+                    </div>
+                    <span class="text-xs font-medium text-crema/90 pr-1">Clientes que recuperaron sus sillones</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right Column: Specs Panel & Overlapping Action Bar (5 cols on lg) -->
+              <div class="lg:col-span-5 flex flex-col space-y-6">
+                <div>
+                  <div class="inline-block text-[11px] font-mono font-medium tracking-[0.12em] uppercase text-arena mb-2">
+                    LIMPIEZA DE TAPICES
+                  </div>
+                  <h3 class="font-display font-medium text-3xl sm:text-4xl text-crema leading-tight mb-3">
+                    Tu sillón, como nuevo. Sin re tapizar.
+                  </h3>
+                  <p class="font-display italic text-base sm:text-lg text-crema/80 leading-snug">
+                    “Restauraron totalmente la vida de mi sofá.”
+                    <span class="font-sans not-italic text-sm text-crema/50 block mt-1">— Funki Pants</span>
+                  </p>
+                </div>
+
+                <!-- Spec Panel in Musgo -->
+                <div class="spec-panel bg-musgo text-crema rounded-[24px] p-5 sm:p-6 space-y-3.5 shadow-md shadow-inner-dark">
+                  <div class="flex items-center justify-between text-xs sm:text-sm border-b border-crema/15 pb-2.5">
+                    <span class="font-mono text-[11px] uppercase tracking-[0.12em] text-crema/70">SISTEMA</span>
+                    <span class="font-medium text-crema">Espuma semi-seca</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs sm:text-sm border-b border-crema/15 pb-2.5">
+                    <span class="font-mono text-[11px] uppercase tracking-[0.12em] text-crema/70">PRODUCTOS</span>
+                    <span class="font-medium text-crema">Biodegradables · origen europeo</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs sm:text-sm border-b border-crema/15 pb-2.5">
+                    <span class="font-mono text-[11px] uppercase tracking-[0.12em] text-crema/70">ELIMINA</span>
+                    <span class="font-medium text-crema">Manchas, ácaros, bacterias y olores</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs sm:text-sm">
+                    <span class="font-mono text-[11px] uppercase tracking-[0.12em] text-crema/70">IDEAL PARA</span>
+                    <span class="font-medium text-crema">Sillones, sillas, futones, poltronas</span>
+                  </div>
+                </div>
+
+                <!-- Action Bar in Arena (Overlaps left on desktop) -->
+                <div
+                  class="action-bar-arena bg-arena text-oscuro rounded-[24px] p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg lg:-ml-12 relative z-20"
+                >
+                  <div>
+                    <div class="font-display font-medium text-xl leading-snug">Cotiza sin compromiso</div>
+                    <div class="text-xs text-oscuro/70">Respondemos a la brevedad</div>
+                  </div>
+                  <a
+                    href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar:%20Limpieza%20de%20tapices."
+                    target="_blank"
+                    rel="noopener"
+                    data-cta="destacado"
+                    class="btn-magnetic w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 bg-oscuro text-crema text-sm font-semibold rounded-full hover:bg-black transition-colors whitespace-nowrap"
+                  >
+                    <span>Cotizar tapices</span>
+                    <span>→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.6 OPINIONES (#opiniones) -->
+      <section
+        id="opiniones"
+        class="relative z-10 bg-crema/80 backdrop-blur-sm border-y border-oscuro/10 py-20 sm:py-28 px-5 sm:px-8 lg:px-12"
+        aria-labelledby="opiniones-heading"
+      >
+        <div class="max-w-[1280px] mx-auto">
+          <!-- Header -->
+          <div class="max-w-xl mb-14 sm:mb-20">
+            <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-musgo mb-3">
+              OPINIONES
+            </div>
+            <h2
+              id="opiniones-heading"
+              class="font-display font-normal text-3xl sm:text-5xl tracking-[-0.02em] text-oscuro"
+            >
+              Lo que dicen nuestros clientes
+            </h2>
+          </div>
+
+          <!-- Reviews Grid (3 columns on desktop, middle card shifted 40px down; snap carousel on mobile) -->
+          <div
+            class="flex lg:grid lg:grid-cols-3 gap-6 sm:gap-8 overflow-x-auto lg:overflow-visible no-scrollbar snap-x snap-mandatory pb-4 lg:pb-12 -mx-5 px-5 sm:-mx-8 sm:px-8 lg:mx-0 lg:px-0"
+          >
+            <!-- Review 1: Fresia Irribarra -->
+            <div
+              class="review-card snap-start shrink-0 w-[85vw] max-w-[340px] sm:max-w-[380px] lg:w-auto bg-superficie rounded-[32px] p-7 sm:p-8 flex flex-col justify-between shadow-sm shadow-inner-light"
+            >
+              <div>
+                <iconify-icon icon="solar:quote-left-linear" width="32" height="32" class="text-musgo mb-4"></iconify-icon>
+                <p class="font-display italic text-xl sm:text-2xl text-oscuro leading-snug mb-6">
+                  “Excelente servicio de limpieza de tapices! Mis sillones quedaron como nuevos, no fue necesario re tapizarlos.”
+                </p>
+              </div>
+              <div class="border-t border-oscuro/10 pt-4">
+                <div class="font-semibold text-oscuro text-base">Fresia Irribarra</div>
+              </div>
+            </div>
+
+            <!-- Review 2: María Jesús Beltrán Núñez (shifted 40px down on lg) -->
+            <div
+              class="review-card snap-start shrink-0 w-[85vw] max-w-[340px] sm:max-w-[380px] lg:w-auto bg-superficie rounded-[32px] p-7 sm:p-8 flex flex-col justify-between shadow-sm shadow-inner-light lg:translate-y-10"
+            >
+              <div>
+                <iconify-icon icon="solar:quote-left-linear" width="32" height="32" class="text-musgo mb-4"></iconify-icon>
+                <p class="font-display italic text-xl sm:text-2xl text-oscuro leading-snug mb-6">
+                  “Personal muy amable, quedé muy conforme con los resultados, sin duda los volveré a llamar.”
+                </p>
+                <!-- Highlight chips for María Jesús -->
+                <div class="flex flex-wrap gap-2 mb-6">
+                  <span class="text-xs font-medium px-3 py-1 bg-crema text-oscuro/80 rounded-full border border-oscuro/10">
+                    Calidad
+                  </span>
+                  <span class="text-xs font-medium px-3 py-1 bg-crema text-oscuro/80 rounded-full border border-oscuro/10">
+                    Precio
+                  </span>
+                  <span class="text-xs font-medium px-3 py-1 bg-crema text-oscuro/80 rounded-full border border-oscuro/10">
+                    Profesionalismo
+                  </span>
+                  <span class="text-xs font-medium px-3 py-1 bg-crema text-oscuro/80 rounded-full border border-oscuro/10">
+                    Puntualidad
+                  </span>
+                </div>
+              </div>
+              <div class="border-t border-oscuro/10 pt-4">
+                <div class="font-semibold text-oscuro text-base">María Jesús Beltrán Núñez</div>
+              </div>
+            </div>
+
+            <!-- Review 3: Funki Pants -->
+            <div
+              class="review-card snap-start shrink-0 w-[85vw] max-w-[340px] sm:max-w-[380px] lg:w-auto bg-superficie rounded-[32px] p-7 sm:p-8 flex flex-col justify-between shadow-sm shadow-inner-light"
+            >
+              <div>
+                <iconify-icon icon="solar:quote-left-linear" width="32" height="32" class="text-musgo mb-4"></iconify-icon>
+                <p class="font-display italic text-xl sm:text-2xl text-oscuro leading-snug mb-6">
+                  “Servicio excelente de verdad, restauraron totalmente la vida de mi sofá. Pasó de estar en un estado deplorable a volver a ser un sillón en el que da gusto sentarse.”
+                </p>
+              </div>
+              <div class="border-t border-oscuro/10 pt-4 flex items-center justify-between">
+                <div>
+                  <div class="font-semibold text-oscuro text-base">Funki Pants</div>
+                  <div class="text-xs text-oscuro/50">Reseña de Google</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.7 COBERTURA Y MASCOTAS (#cobertura) -->
+      <section
+        id="cobertura"
+        class="relative z-10 bg-crema text-oscuro py-20 sm:py-28 px-5 sm:px-8 lg:px-12"
+        aria-labelledby="cobertura-heading"
+      >
+        <div class="max-w-[1280px] mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <!-- Left Column: Coverage Communes (7 cols) -->
+            <div class="lg:col-span-7 flex flex-col space-y-6">
+              <div>
+                <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-musgo mb-3">
+                  COBERTURA
+                </div>
+                <h2
+                  id="cobertura-heading"
+                  class="font-display font-normal text-3xl sm:text-5xl lg:text-[56px] tracking-[-0.02em] text-oscuro mb-4"
+                >
+                  Vamos a tu casa
+                </h2>
+                <p class="text-oscuro/70 text-base sm:text-lg mb-8">
+                  Atendemos directamente en tu domicilio en el sector oriente y centro de Santiago.
+                </p>
+              </div>
+
+              <!-- Large Commune Chips in Musgo Outline -->
+              <div class="flex flex-wrap gap-3">
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Las Condes
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Providencia
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Vitacura
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Lo Barnechea
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Ñuñoa
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  La Reina
+                </span>
+                <span
+                  class="commune-chip px-5 py-2.5 rounded-full border border-musgo text-musgo font-medium text-sm sm:text-base bg-superficie shadow-sm"
+                >
+                  Santiago Centro
+                </span>
+              </div>
+
+              <p class="text-sm text-oscuro/65 italic pt-1">
+                ¿Estás en otra comuna? Escríbenos y lo vemos.
+              </p>
+
+              <!-- Address and Hours Details -->
+              <div class="pt-6 border-t border-oscuro/10 space-y-3">
+                <div class="flex items-center gap-3 text-sm text-oscuro/80">
+                  <iconify-icon icon="solar:map-point-linear" width="20" height="20" class="text-musgo"></iconify-icon>
+                  <span>La Capitanía 80, Las Condes</span>
+                </div>
+                <div class="flex items-center gap-3 text-sm text-oscuro/80">
+                  <iconify-icon icon="solar:clock-circle-linear" width="20" height="20" class="text-musgo"></iconify-icon>
+                  <span>Lunes a sábado, 9:00–18:00</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Pets Card (5 cols) -->
+            <div class="lg:col-span-5">
+              <div
+                class="pets-card bg-superficie rounded-[32px] overflow-hidden shadow-lg border border-oscuro/8 shadow-inner-light p-6 sm:p-8"
+              >
+                <div class="aspect-[4/3] rounded-[24px] overflow-hidden mb-6 bg-crema">
+                  <img
+                    src="https://cleaningit.cl/wp-content/uploads/2022/08/limpieza-de-alfombras-icono-2.jpeg?w=800"
+                    alt="Mascotas felices en alfombras y tapices limpios y sanitizados"
+                    width="450"
+                    height="338"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover photo-warm"
+                  />
+                </div>
+                <h3 class="font-display font-medium text-2xl text-oscuro mb-3">
+                  Disfruta tu casa (y tus mascotas)
+                </h3>
+                <p class="text-oscuro/70 text-sm sm:text-base leading-relaxed">
+                  Lo principal es disfrutar a nuestras mascotas. De la limpieza nos encargamos nosotros.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7.8 RESERVA (#reservar) -->
+      <!-- Stacked layer signature: rounded top corners, dark background with matte noise -->
+      <section
+        id="reservar"
+        class="relative z-30 bg-oscuro text-crema rounded-t-[44px] lg:rounded-t-[80px] -mt-10 sm:-mt-14 lg:-mt-20 pt-20 sm:pt-28 pb-24 sm:pb-32 px-5 sm:px-8 lg:px-12 shadow-[0_-20px_50px_rgba(0,0,0,0.5)] overflow-hidden"
+        aria-labelledby="reservar-heading"
+      >
+        <div class="absolute inset-0 noise-overlay pointer-events-none opacity-40"></div>
+
+        <div class="relative z-10 max-w-[1280px] mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+            <!-- Left Column: Direct Contact Info (5 cols) -->
+            <div class="lg:col-span-5 flex flex-col space-y-8">
+              <div>
+                <div class="text-[11px] sm:text-xs font-mono font-medium tracking-[0.12em] uppercase text-arena mb-3">
+                  RESERVA DIRECTA
+                </div>
+                <h2
+                  id="reservar-heading"
+                  class="font-display font-normal text-3xl sm:text-5xl lg:text-[56px] tracking-[-0.02em] leading-[1.05] text-crema mb-4"
+                >
+                  Agenda tu limpieza profunda
+                </h2>
+                <p class="text-crema/75 text-base sm:text-lg leading-relaxed">
+                  Completa estos datos y te abrimos WhatsApp con tu mensaje listo. O, si prefieres, llámanos.
+                </p>
+              </div>
+
+              <!-- Direct Action Buttons -->
+              <div class="flex flex-col gap-4">
+                <a
+                  href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="reservar-whatsapp-direct"
+                  class="btn-magnetic flex items-center justify-center gap-3 h-[52px] px-7 bg-musgo text-crema font-medium rounded-full shadow-lg hover:bg-musgo-claro transition-all duration-200"
+                >
+                  <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+                    />
+                  </svg>
+                  <span>Escribir por WhatsApp</span>
+                </a>
+
+                <a
+                  href="tel:+56976061297"
+                  class="flex items-center justify-center gap-3 h-[52px] px-7 border border-crema/25 text-crema font-medium rounded-full hover:bg-crema/10 transition-colors"
+                >
+                  <iconify-icon icon="solar:phone-linear" width="20" height="20"></iconify-icon>
+                  <span>Llamar +56 9 7606 1297</span>
+                </a>
+              </div>
+
+              <!-- Email link -->
+              <div class="text-sm text-crema/70 pt-2">
+                O escribe directamente a
+                <a
+                  href="mailto:contacto@cleaningit.cl"
+                  class="text-arena underline hover:text-white transition-colors"
+                >
+                  contacto@cleaningit.cl
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Form on Superficie Card (7 cols) -->
+            <div class="lg:col-span-7">
+              <div
+                class="bg-superficie text-oscuro rounded-[32px] p-6 sm:p-10 shadow-2xl border border-white/20 shadow-inner-light"
+              >
+                <form id="quote-form" class="space-y-5" novalidate>
+                  <!-- Campo Nombre -->
+                  <div>
+                    <label for="form-nombre" class="block text-xs font-mono font-medium tracking-[0.12em] uppercase text-oscuro/80 mb-2">
+                      Nombre <span class="text-musgo">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="form-nombre"
+                      name="nombre"
+                      required
+                      placeholder="Tu nombre y apellido"
+                      class="w-full h-12 px-4 rounded-xl bg-crema/60 border border-oscuro/15 text-oscuro placeholder-oscuro/40 focus:outline-none focus:ring-2 focus:ring-musgo focus:border-transparent transition-all"
+                    />
+                    <p id="error-nombre" class="hidden text-xs text-red-600 mt-1 font-medium"></p>
+                  </div>
+
+                  <!-- Grid Comuna & Servicio -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    <!-- Campo Comuna -->
+                    <div>
+                      <label for="form-comuna" class="block text-xs font-mono font-medium tracking-[0.12em] uppercase text-oscuro/80 mb-2">
+                        Comuna <span class="text-musgo">*</span>
+                      </label>
+                      <select
+                        id="form-comuna"
+                        name="comuna"
+                        required
+                        class="w-full h-12 px-4 rounded-xl bg-crema/60 border border-oscuro/15 text-oscuro focus:outline-none focus:ring-2 focus:ring-musgo focus:border-transparent transition-all"
+                      >
+                        <option value="" disabled selected>Selecciona tu comuna</option>
+                        <option value="Las Condes">Las Condes</option>
+                        <option value="Providencia">Providencia</option>
+                        <option value="Vitacura">Vitacura</option>
+                        <option value="Lo Barnechea">Lo Barnechea</option>
+                        <option value="Ñuñoa">Ñuñoa</option>
+                        <option value="La Reina">La Reina</option>
+                        <option value="Santiago Centro">Santiago Centro</option>
+                        <option value="Otra comuna">Otra comuna</option>
+                      </select>
+                      <p id="error-comuna" class="hidden text-xs text-red-600 mt-1 font-medium"></p>
+                    </div>
+
+                    <!-- Campo Servicio -->
+                    <div>
+                      <label for="form-servicio" class="block text-xs font-mono font-medium tracking-[0.12em] uppercase text-oscuro/80 mb-2">
+                        Servicio <span class="text-musgo">*</span>
+                      </label>
+                      <select
+                        id="form-servicio"
+                        name="servicio"
+                        required
+                        class="w-full h-12 px-4 rounded-xl bg-crema/60 border border-oscuro/15 text-oscuro focus:outline-none focus:ring-2 focus:ring-musgo focus:border-transparent transition-all"
+                      >
+                        <option value="" disabled selected>Selecciona un servicio</option>
+                        <option value="Limpieza de tapices">Limpieza de tapices</option>
+                        <option value="Limpieza de alfombras decorativas">Limpieza de alfombras decorativas</option>
+                        <option value="Limpieza de alfombras muro a muro">Limpieza de alfombras muro a muro</option>
+                        <option value="Limpieza de pisos duros">Limpieza de pisos duros</option>
+                        <option value="Limpieza de tapices de auto">Limpieza de tapices de auto</option>
+                        <option value="Sanitización">Sanitización</option>
+                        <option value="Mix de servicios">Mix de servicios</option>
+                      </select>
+                      <p id="error-servicio" class="hidden text-xs text-red-600 mt-1 font-medium"></p>
+                    </div>
+                  </div>
+
+                  <!-- Campo Fecha preferida (opcional) -->
+                  <div>
+                    <label for="form-fecha" class="block text-xs font-mono font-medium tracking-[0.12em] uppercase text-oscuro/80 mb-2">
+                      Fecha preferida <span class="text-oscuro/40 font-normal font-sans">(opcional)</span>
+                    </label>
+                    <input
+                      type="date"
+                      id="form-fecha"
+                      name="fecha"
+                      class="w-full h-12 px-4 rounded-xl bg-crema/60 border border-oscuro/15 text-oscuro focus:outline-none focus:ring-2 focus:ring-musgo focus:border-transparent transition-all"
+                    />
+                  </div>
+
+                  <!-- Campo Detalle (opcional) -->
+                  <div>
+                    <label for="form-detalle" class="block text-xs font-mono font-medium tracking-[0.12em] uppercase text-oscuro/80 mb-2">
+                      Detalle <span class="text-oscuro/40 font-normal font-sans">(opcional)</span>
+                    </label>
+                    <textarea
+                      id="form-detalle"
+                      name="detalle"
+                      rows="3"
+                      placeholder="Ej: sillón de 3 cuerpos y alfombra persa de 2×3 m"
+                      class="w-full p-4 rounded-xl bg-crema/60 border border-oscuro/15 text-oscuro placeholder-oscuro/40 focus:outline-none focus:ring-2 focus:ring-musgo focus:border-transparent transition-all resize-none"
+                    ></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="pt-2">
+                    <button
+                      type="submit"
+                      data-cta="form"
+                      class="btn-magnetic w-full flex items-center justify-center gap-3 h-[52px] bg-musgo text-crema text-base font-medium rounded-full shadow-md hover:bg-musgo-claro transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-musgo-claro"
+                    >
+                      <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+                        />
+                      </svg>
+                      <span>Enviar por WhatsApp</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 7.9 FOOTER -->
+    <footer class="bg-oscuro text-crema relative overflow-hidden border-t border-crema/10" role="contentinfo">
+      <div class="absolute inset-0 noise-overlay pointer-events-none opacity-40"></div>
+
+      <div class="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-8 lg:px-12 pt-16 pb-28 lg:pb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-16">
+          <!-- Col 1: Brand -->
+          <div class="space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-full bg-crema flex items-center justify-center shrink-0">
+                <img
+                  src="https://cleaningit.cl/wp-content/uploads/2024/06/cropped-2.png"
+                  alt="Cleaning It"
+                  width="32"
+                  height="32"
+                  class="h-8 w-auto object-contain"
+                />
+              </div>
+              <span class="font-display font-medium text-2xl tracking-[-0.02em]">Cleaning It</span>
+            </div>
+            <p class="text-sm text-crema/70 leading-relaxed">
+              Limpieza de alfombras, tapices y pisos duros a domicilio. 100% ecológico.
+            </p>
+          </div>
+
+          <!-- Col 2: Servicios -->
+          <div class="space-y-3">
+            <div class="text-xs font-mono font-medium tracking-[0.12em] uppercase text-arena">SERVICIOS</div>
+            <ul class="space-y-2 text-sm text-crema/75">
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Limpieza de tapices</a></li>
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Alfombras decorativas</a></li>
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Alfombras muro a muro</a></li>
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Pisos duros</a></li>
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Tapices de auto</a></li>
+              <li><a href="#servicios" class="hover:text-crema transition-colors">Sanitización</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Contacto -->
+          <div class="space-y-3">
+            <div class="text-xs font-mono font-medium tracking-[0.12em] uppercase text-arena">CONTACTO</div>
+            <ul class="space-y-2.5 text-sm text-crema/75">
+              <li>
+                <a href="tel:+56976061297" class="hover:text-crema transition-colors flex items-center gap-2">
+                  <iconify-icon icon="solar:phone-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>+56 9 7606 1297</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/56976061297"
+                  target="_blank"
+                  rel="noopener"
+                  class="hover:text-crema transition-colors flex items-center gap-2"
+                >
+                  <iconify-icon icon="solar:chat-round-dots-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>WhatsApp: +56 9 7606 1297</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contacto@cleaningit.cl" class="hover:text-crema transition-colors flex items-center gap-2">
+                  <iconify-icon icon="solar:letter-linear" width="16" height="16" class="text-musgo-claro"></iconify-icon>
+                  <span>contacto@cleaningit.cl</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Visítanos -->
+          <div class="space-y-3">
+            <div class="text-xs font-mono font-medium tracking-[0.12em] uppercase text-arena">VISÍTANOS</div>
+            <address class="not-italic text-sm text-crema/75 space-y-2">
+              <div class="flex items-start gap-2">
+                <iconify-icon icon="solar:map-point-linear" width="16" height="16" class="text-musgo-claro shrink-0 mt-0.5"></iconify-icon>
+                <span>La Capitanía 80, Las Condes, Santiago</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <iconify-icon icon="solar:clock-circle-linear" width="16" height="16" class="text-musgo-claro shrink-0 mt-0.5"></iconify-icon>
+                <span>Lunes a sábado, 9:00 a 18:00 horas</span>
+              </div>
+            </address>
+          </div>
+        </div>
+
+        <!-- Bottom Line -->
+        <div class="pt-8 border-t border-crema/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-crema/50">
+          <div>© 2026 Cleaning It · Santiago, Chile</div>
+          <div>Todos los derechos reservados.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 7.10 BARRA FIJA INFERIOR (Solo móvil y tablet) -->
+    <div
+      id="mobile-sticky-bar"
+      class="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-crema/95 backdrop-blur-md border-t border-oscuro/10 px-4 py-3 safe-bottom shadow-lg transition-transform duration-300 translate-y-full"
+      role="region"
+      aria-label="Acciones rápidas de contacto"
+    >
+      <div class="flex items-center gap-3 max-w-md mx-auto">
+        <!-- 65% WhatsApp -->
+        <a
+          href="https://wa.me/56976061297?text=Hola%20Cleaning%20It%20%F0%9F%91%8B%20Quiero%20cotizar%20una%20limpieza%20a%20domicilio."
+          target="_blank"
+          rel="noopener"
+          data-cta="sticky"
+          class="w-[65%] flex items-center justify-center gap-2.5 h-12 bg-musgo text-crema text-sm font-semibold rounded-full shadow-md active:scale-95 transition-all"
+        >
+          <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12.031 2C6.517 2 2.03 6.485 2.03 12c0 1.93.551 3.731 1.503 5.253L2 22l4.894-1.498A9.94 9.94 0 0 0 12.031 22C17.545 22 22.03 17.515 22.03 12c0-5.515-4.485-10-9.999-10zm0 18.232c-1.637 0-3.178-.456-4.502-1.247l-.323-.192-2.903.889.905-2.825-.211-.336a8.188 8.188 0 0 1-1.233-4.521c0-4.538 3.693-8.231 8.267-8.231 4.573 0 8.267 3.693 8.267 8.231 0 4.538-3.694 8.231-8.267 8.231zm4.534-6.175c-.249-.124-1.472-.727-1.7-.81-.228-.083-.394-.124-.56.124-.166.249-.643.81-.788.976-.145.166-.29.187-.539.062s-1.05-.387-2.001-1.235c-.74-.66-1.24-1.475-1.385-1.724-.145-.249-.015-.383.109-.507.112-.112.249-.29.373-.435.124-.145.166-.249.249-.415.083-.166.041-.311-.021-.435-.062-.124-.56-1.349-.768-1.847-.202-.484-.407-.418-.56-.426l-.477-.008c-.166 0-.435.062-.663.311s-.871.851-.871 2.075c0 1.224.892 2.407 1.016 2.573.124.166 1.755 2.68 4.252 3.758.594.257 1.058.41 1.42.525.597.19 1.14.163 1.569.099.479-.072 1.472-.602 1.68-1.183.207-.581.207-1.079.145-1.183-.062-.104-.228-.166-.477-.29z"
+            />
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <!-- 35% Llamar -->
+        <a
+          href="tel:+56976061297"
+          class="w-[35%] flex items-center justify-center gap-1.5 h-12 border border-oscuro/25 text-oscuro text-sm font-semibold rounded-full hover:bg-oscuro/5 active:scale-95 transition-all"
+        >
+          <iconify-icon icon="solar:phone-linear" width="18" height="18"></iconify-icon>
+          <span>Llamar</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- CLIENT JAVASCRIPT & GSAP LOGIC -->
+    <script>
+      (function () {
+        // Tag HTML as JS-ready only after executing script
+        document.documentElement.classList.add('js-ready');
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const isFinePointer = window.matchMedia('(pointer: fine)').matches;
+
+        // 1. Mobile Menu Drawer
+        const menuOpenBtn = document.getElementById('mobile-menu-open');
+        const menuCloseBtn = document.getElementById('mobile-menu-close');
+        const menuDrawer = document.getElementById('mobile-menu-drawer');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function openMenu() {
+          menuDrawer.classList.remove('opacity-0', 'pointer-events-none');
+          menuDrawer.classList.add('opacity-100', 'pointer-events-auto');
+          menuOpenBtn.setAttribute('aria-expanded', 'true');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+          menuDrawer.classList.add('opacity-0', 'pointer-events-none');
+          menuDrawer.classList.remove('opacity-100', 'pointer-events-auto');
+          menuOpenBtn.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        }
+
+        if (menuOpenBtn && menuCloseBtn && menuDrawer) {
+          menuOpenBtn.addEventListener('click', openMenu);
+          menuCloseBtn.addEventListener('click', closeMenu);
+          mobileNavLinks.forEach(link => link.addEventListener('click', closeMenu));
+          window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && menuDrawer.classList.contains('opacity-100')) {
+              closeMenu();
+            }
+          });
+        }
+
+        // 2. Navigation Scroll State & Mobile Sticky Bar
+        const mainNav = document.getElementById('main-nav');
+        const navBrand = document.getElementById('nav-brand');
+        const navLinks = document.getElementById('nav-links');
+        const mobileStickyBar = document.getElementById('mobile-sticky-bar');
+        const heroSection = document.getElementById('hero');
+        const reservarSection = document.getElementById('reservar');
+
+        let lastScrollY = window.scrollY;
+
+        function handleScroll() {
+          const currentScrollY = window.scrollY;
+          const heroHeight = heroSection ? heroSection.offsetHeight - 80 : 500;
+
+          // Header appearance transition
+          if (currentScrollY > 80) {
+            mainNav.classList.add('bg-crema/90', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-oscuro/10', 'py-3');
+            mainNav.classList.remove('py-4');
+            navBrand.classList.remove('text-crema');
+            navBrand.classList.add('text-oscuro');
+            if (navLinks) {
+              navLinks.classList.remove('text-crema/85');
+              navLinks.classList.add('text-oscuro/85');
+            }
+            if (menuOpenBtn) {
+              menuOpenBtn.classList.remove('text-crema');
+              menuOpenBtn.classList.add('text-oscuro');
+            }
+          } else {
+            mainNav.classList.remove('bg-crema/90', 'backdrop-blur-md', 'shadow-sm', 'border-b', 'border-oscuro/10', 'py-3');
+            mainNav.classList.add('py-4');
+            navBrand.classList.add('text-crema');
+            navBrand.classList.remove('text-oscuro');
+            if (navLinks) {
+              navLinks.classList.add('text-crema/85');
+              navLinks.classList.remove('text-oscuro/85');
+            }
+            if (menuOpenBtn) {
+              menuOpenBtn.classList.add('text-crema');
+              menuOpenBtn.classList.remove('text-oscuro');
+            }
+          }
+
+          // Desktop hide on scroll down, show on scroll up
+          if (window.innerWidth >= 1024) {
+            if (currentScrollY > 300 && currentScrollY > lastScrollY) {
+              mainNav.style.transform = 'translateY(-100%)';
+            } else {
+              mainNav.style.transform = 'translateY(0)';
+            }
+          } else {
+            mainNav.style.transform = 'translateY(0)';
+          }
+
+          // Mobile Sticky Bar appearance: After hero, hide when #reservar is visible
+          if (mobileStickyBar) {
+            let isReservarInView = false;
+            if (reservarSection) {
+              const rect = reservarSection.getBoundingClientRect();
+              if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+                isReservarInView = true;
+              }
+            }
+
+            if (currentScrollY > heroHeight && !isReservarInView) {
+              mobileStickyBar.classList.remove('translate-y-full');
+            } else {
+              mobileStickyBar.classList.add('translate-y-full');
+            }
+          }
+
+          lastScrollY = currentScrollY;
+        }
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
+
+        // 3. Magnetic Buttons for Desktop (Pointer: fine)
+        if (isFinePointer && !prefersReducedMotion && typeof gsap !== 'undefined') {
+          const magneticButtons = document.querySelectorAll('.btn-magnetic');
+          magneticButtons.forEach((btn) => {
+            btn.addEventListener('mousemove', (e) => {
+              const rect = btn.getBoundingClientRect();
+              const x = e.clientX - rect.left - rect.width / 2;
+              const y = e.clientY - rect.top - rect.height / 2;
+              gsap.to(btn, {
+                x: x * 0.3,
+                y: y * 0.3,
+                duration: 0.3,
+                ease: 'power2.out',
+              });
+            });
+
+            btn.addEventListener('mouseleave', () => {
+              gsap.to(btn, {
+                x: 0,
+                y: 0,
+                duration: 0.7,
+                ease: 'elastic.out(1, 0.4)',
+              });
+            });
+          });
+        }
+
+        // 4. Form Validation & WhatsApp URL builder
+        const form = document.getElementById('quote-form');
+        if (form) {
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const nombreInput = document.getElementById('form-nombre');
+            const comunaSelect = document.getElementById('form-comuna');
+            const servicioSelect = document.getElementById('form-servicio');
+            const fechaInput = document.getElementById('form-fecha');
+            const detalleInput = document.getElementById('form-detalle');
+
+            const errorNombre = document.getElementById('error-nombre');
+            const errorComuna = document.getElementById('error-comuna');
+            const errorServicio = document.getElementById('error-servicio');
+
+            let isValid = true;
+
+            // Reset errors
+            [errorNombre, errorComuna, errorServicio].forEach(err => {
+              err.textContent = '';
+              err.classList.add('hidden');
+            });
+            [nombreInput, comunaSelect, servicioSelect].forEach(input => {
+              input.classList.remove('border-red-500', 'ring-1', 'ring-red-500');
+            });
+
+            // Validate Nombre
+            const nombreVal = nombreInput.value.trim();
+            if (!nombreVal) {
+              errorNombre.textContent = 'Por favor escribe tu nombre.';
+              errorNombre.classList.remove('hidden');
+              nombreInput.classList.add('border-red-500', 'ring-1', 'ring-red-500');
+              isValid = false;
+            }
+
+            // Validate Comuna
+            const comunaVal = comunaSelect.value;
+            if (!comunaVal) {
+              errorComuna.textContent = 'Por favor selecciona tu comuna.';
+              errorComuna.classList.remove('hidden');
+              comunaSelect.classList.add('border-red-500', 'ring-1', 'ring-red-500');
+              isValid = false;
+            }
+
+            // Validate Servicio
+            const servicioVal = servicioSelect.value;
+            if (!servicioVal) {
+              errorServicio.textContent = 'Por favor selecciona el servicio que necesitas.';
+              errorServicio.classList.remove('hidden');
+              servicioSelect.classList.add('border-red-500', 'ring-1', 'ring-red-500');
+              isValid = false;
+            }
+
+            if (!isValid) return;
+
+            // Build Message
+            const fechaVal = fechaInput.value.trim() ? fechaInput.value.trim() : 'a coordinar';
+            const detalleVal = detalleInput.value.trim() ? detalleInput.value.trim() : '—';
+
+            const message = `Hola Cleaning It 👋 Soy ${nombreVal}. Quiero cotizar ${servicioVal} en ${comunaVal}. Fecha preferida: ${fechaVal}. Detalle: ${detalleVal}.`;
+            const waUrl = `https://wa.me/56976061297?text=${encodeURIComponent(message)}`;
+
+            window.open(waUrl, '_blank', 'noopener,noreferrer');
+          });
+        }
+
+        // 5. GSAP Animations & ScrollTriggers
+        if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined' && !prefersReducedMotion) {
+          gsap.registerPlugin(ScrollTrigger);
+
+          // Hero Entrance Animation
+          const heroTimeline = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+          // Background zoom-out settle
+          const bgHeroImg = document.querySelector('.featured-hero-bg');
+          if (bgHeroImg) {
+            heroTimeline.fromTo(
+              bgHeroImg,
+              { scale: 1.08 },
+              { scale: 1, duration: 2.5, ease: 'power2.out' },
+              0
+            );
+          }
+
+          // Hero copy elements stagger
+          const heroItems = document.querySelectorAll('.anim-hero-item');
+          if (heroItems.length > 0) {
+            heroTimeline.fromTo(
+              heroItems,
+              { y: 30, opacity: 0 },
+              { y: 0, opacity: 1, stagger: 0.1, duration: 0.9 },
+              0.1
+            );
+          }
+
+          // Services Cards Stagger Fade-Up
+          const serviceCards = document.querySelectorAll('.service-card');
+          if (serviceCards.length > 0) {
+            gsap.from(serviceCards, {
+              scrollTrigger: {
+                trigger: '#servicios',
+                start: 'top 85%',
+                once: true,
+              },
+              y: 40,
+              opacity: 0,
+              duration: 0.8,
+              stagger: 0.12,
+              ease: 'power3.out',
+            });
+          }
+
+          // Method Number Counters Animation
+          const statCounters = document.querySelectorAll('.stat-counter');
+          statCounters.forEach((counter) => {
+            const targetVal = parseInt(counter.getAttribute('data-target'), 10);
+            if (!isNaN(targetVal)) {
+              ScrollTrigger.create({
+                trigger: counter,
+                start: 'top 90%',
+                once: true,
+                onEnter: () => {
+                  const obj = { val: 0 };
+                  gsap.to(obj, {
+                    val: targetVal,
+                    duration: 1.8,
+                    ease: 'power2.out',
+                    onUpdate: () => {
+                      counter.textContent = Math.round(obj.val);
+                    },
+                  });
+                },
+              });
+            }
+          });
+
+          // Method Right Image Parallax
+          const metodoImg = document.getElementById('metodo-image');
+          if (metodoImg) {
+            gsap.fromTo(
+              metodoImg,
+              { y: 40, scale: 0.92 },
+              {
+                y: -40,
+                scale: 1,
+                ease: 'none',
+                scrollTrigger: {
+                  trigger: '#metodo',
+                  start: 'top bottom',
+                  end: 'bottom top',
+                  scrub: 1,
+                },
+              }
+            );
+          }
+
+          // Steps Progress Line Draw on Scroll
+          const stepsLine = document.getElementById('steps-progress-line');
+          if (stepsLine) {
+            gsap.fromTo(
+              stepsLine,
+              { scaleX: 0, transformOrigin: 'left center' },
+              {
+                scaleX: 1,
+                ease: 'none',
+                scrollTrigger: {
+                  trigger: '#como-funciona',
+                  start: 'top 75%',
+                  end: 'bottom 85%',
+                  scrub: 0.5,
+                },
+              }
+            );
+          }
+
+          // Step Items Fade-Up
+          const stepItems = document.querySelectorAll('.step-item');
+          if (stepItems.length > 0) {
+            gsap.from(stepItems, {
+              scrollTrigger: {
+                trigger: '#como-funciona',
+                start: 'top 80%',
+                once: true,
+              },
+              y: 35,
+              opacity: 0,
+              duration: 0.8,
+              stagger: 0.15,
+              ease: 'power3.out',
+            });
+          }
+
+          // Featured Tapices Image Clip-Path Reveal
+          const featuredImgContainer = document.getElementById('featured-image-container');
+          if (featuredImgContainer) {
+            gsap.fromTo(
+              featuredImgContainer,
+              {
+                clipPath: 'polygon(0 100%, 100% 100%, 100% 100%, 0 100%)',
+              },
+              {
+                clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+                duration: 1.2,
+                ease: 'power4.inOut',
+                scrollTrigger: {
+                  trigger: featuredImgContainer,
+                  start: 'top 85%',
+                  once: true,
+                },
+              }
+            );
+          }
+
+          // Featured Card Spec Panel and Arena Bar Fade-Up
+          const specPanel = document.querySelector('.spec-panel');
+          const actionBar = document.querySelector('.action-bar-arena');
+          if (specPanel && actionBar) {
+            gsap.from([specPanel, actionBar], {
+              scrollTrigger: {
+                trigger: '.featured-card',
+                start: 'top 80%',
+                once: true,
+              },
+              y: 30,
+              opacity: 0,
+              duration: 0.8,
+              stagger: 0.15,
+              ease: 'power3.out',
+            });
+          }
+
+          // Review Cards Stagger Fade-Up
+          const reviewCards = document.querySelectorAll('.review-card');
+          if (reviewCards.length > 0) {
+            gsap.from(reviewCards, {
+              scrollTrigger: {
+                trigger: '#opiniones',
+                start: 'top 85%',
+                once: true,
+              },
+              y: 40,
+              opacity: 0,
+              duration: 0.8,
+              stagger: 0.12,
+              ease: 'power3.out',
+            });
+          }
+
+          // Commune Chips Stagger Scale-Up
+          const communeChips = document.querySelectorAll('.commune-chip');
+          if (communeChips.length > 0) {
+            gsap.from(communeChips, {
+              scrollTrigger: {
+                trigger: '#cobertura',
+                start: 'top 80%',
+                once: true,
+              },
+              scale: 0.9,
+              opacity: 0,
+              duration: 0.5,
+              stagger: 0.06,
+              ease: 'back.out(1.5)',
+            });
+          }
+        } else {
+          // If reduced motion is requested or GSAP not loaded: populate counter text directly
+          const statCounters = document.querySelectorAll('.stat-counter');
+          statCounters.forEach((counter) => {
+            counter.textContent = counter.getAttribute('data-target');
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
